@@ -35,8 +35,8 @@ def embed(input_js_file, payload_file):
         with open(input_js_file, "w") as f:
             f.write(output_js)
 
-    	print("Embedding successful!")
-	except Exception as e:
+        print("Embedding successful!")
+    except Exception as e:
     	print(f"Error: {e}")
 		
 if __name__ == "__main__":
